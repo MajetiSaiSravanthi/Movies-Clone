@@ -1,0 +1,88 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color:black
+  }
+  
+  .signup-login {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"],
+  input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    
+  }
+  
+  .signup-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie {
+    text-align: center;
+    margin: 10px;
+    max-width: 200px;
+  }
+  
+  .movie img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie .movie-title {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .movie a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #f1efef;
+    font-weight: bold;
+  }
+  
+  
+  
